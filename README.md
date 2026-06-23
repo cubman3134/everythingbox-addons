@@ -4,11 +4,13 @@ A community registry of add-ons (media sources) for **My Media Vault**. Browse a
 inside the app: **Settings → Browse Add-ons…**
 
 ## Use it in the app
-Paste this repo's raw `index.json` URL into the "Registry" box in **Browse Add-ons…**:
+This repo is the **default** registry in the app. Its raw `index.json` URL is:
 
 ```
-https://raw.githubusercontent.com/<your-user>/mymediavault-addons/main/index.json
+https://raw.githubusercontent.com/cubman3134/mymediavault-addons/main/index.json
 ```
+
+You can also add your own independent registries in **Browse Add-ons…** via **Add registry…**.
 
 ## Contribute an add-on
 1. Put your add-on under `addons/<your.addon.id>/` (`manifest.json`, `main.js`, plus any icons/assets).
@@ -31,5 +33,5 @@ https://raw.githubusercontent.com/<your-user>/mymediavault-addons/main/index.jso
 
 ### Add-on format
 An add-on is a `manifest.json` (id, name, type "media-source", catalogs, optional `mediaTypes`/`accent`)
-plus a `main.js` exposing `getCatalog`, `getDetail`, `getMeta`, `search`. See `addons/com.goliath.podcasts/`
+plus a `main.js` exposing `getCatalog`, `getDetail`, `getMeta`, `search`. See `addons/com.mymediavault.podcasts/`
 for a complete, keyless example — including a custom media type with its own colour + bundled SVG icon.
