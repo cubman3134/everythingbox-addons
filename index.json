@@ -10,6 +10,14 @@
         "addons/com.mymediavault.podcasts/main.js",
         "addons/com.mymediavault.podcasts/mic.svg"
       ]
+    },
+    {
+      "id": "com.mymediavault.aiocatalog-worker",
+      "name": "AIO Catalog (Worker)",
+      "author": "cubman3134",
+      "description": "All-in-one metadata catalog (Movies & TV, Games, Music, Books, Comics, Manga) served from a Cloudflare Worker. A remote addon — installing it just subscribes to the URL; enter your own API keys via Configure. No files are downloaded.",
+      "remote": true,
+      "url": "https://mymediavault-aiocatalog.cubman3134.workers.dev"
     }
   ]
 }
