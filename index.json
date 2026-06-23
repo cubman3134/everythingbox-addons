@@ -1,0 +1,15 @@
+{
+  "addons": [
+    {
+      "id": "com.goliath.podcasts",
+      "name": "Podcasts",
+      "author": "MyMediaVault",
+      "description": "Podcasts via the keyless iTunes Search API. Adds a new 'podcast' media type (its own colour + icon), drills into episodes, and episodes play as audio.",
+      "files": [
+        "addons/com.goliath.podcasts/manifest.json",
+        "addons/com.goliath.podcasts/main.js",
+        "addons/com.goliath.podcasts/mic.svg"
+      ]
+    }
+  ]
+}
