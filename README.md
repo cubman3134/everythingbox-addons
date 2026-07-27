@@ -7,7 +7,7 @@ inside the app: **Settings → Browse Add-ons…**
 This repo is the **default** registry in the app. Its raw `index.json` URL is:
 
 ```
-https://raw.githubusercontent.com/cubman3134/mymediavault-addons/main/index.json
+https://raw.githubusercontent.com/cubman3134/everythingbox-addons/main/index.json
 ```
 
 You can also add your own independent registries in **Browse Add-ons…** via **Add registry…**.
@@ -33,5 +33,5 @@ You can also add your own independent registries in **Browse Add-ons…** via **
 
 ### Add-on format
 An add-on is a `manifest.json` (id, name, type "media-source", catalogs, optional `mediaTypes`/`accent`)
-plus a `main.js` exposing `getCatalog`, `getDetail`, `getMeta`, `search`. See `addons/com.mymediavault.podcasts/`
+plus a `main.js` exposing `getCatalog`, `getDetail`, `getMeta`, `search`. See `addons/com.everythingbox.podcasts/`
 for a complete, keyless example — including a custom media type with its own colour + bundled SVG icon.

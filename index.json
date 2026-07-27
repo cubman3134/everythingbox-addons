@@ -1,14 +1,14 @@
 {
   "addons": [
     {
-      "id": "com.mymediavault.podcasts",
+      "id": "com.everythingbox.podcasts",
       "name": "Podcasts",
-      "author": "MyMediaVault",
+      "author": "EverythingBox",
       "description": "Podcasts via the keyless iTunes Search API. Adds a new 'podcast' media type (its own colour + icon), drills into episodes, and episodes play as audio.",
       "files": [
-        "addons/com.mymediavault.podcasts/manifest.json",
-        "addons/com.mymediavault.podcasts/main.js",
-        "addons/com.mymediavault.podcasts/mic.svg"
+        "addons/com.everythingbox.podcasts/manifest.json",
+        "addons/com.everythingbox.podcasts/main.js",
+        "addons/com.everythingbox.podcasts/mic.svg"
       ]
     },
     {
