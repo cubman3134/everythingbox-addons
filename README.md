@@ -1,6 +1,6 @@
-# My Media Vault — Add-ons
+# EverythingBox — Add-ons
 
-A community registry of add-ons (media sources) for **My Media Vault**. Browse and install these from
+A community registry of add-ons (media sources) for **EverythingBox**. Browse and install these from
 inside the app: **Settings → Browse Add-ons…**
 
 ## Use it in the app
